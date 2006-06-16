@@ -1,0 +1,6 @@
+category: Gnome
+requires: cygwin atk-devel gtk2-x11-devel libX11 libXres startup-notification
+external-source: libwnck
+sdesc: "GNOME Window Navigation Construction Kit (development)"
+ldesc: "libwnck is Window Navigator Construction Kit, i.e. a library to 
+use for writing pagers and taskslists and stuff."
