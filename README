@@ -4,26 +4,26 @@ libwnck is Window Navigator Construction Kit, i.e. a library to use
 for writing pagers and taskslists and stuff.
 
 Runtime requirements:
-  cygwin-1.5.20-1 (>=20060604)
+  cygwin-1.5.21-1
   atk-1.10.3-1
-  gtk2-x11-2.8.13-1
-  libX11_6-1.0.0-2
-  libXres1-1.0.0-1
+  gtk2-x11-2.8.20-1
+  libX11_6-1.0.2-1
+  libXres1-1.0.1-1
   startup-notification-0.8-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.20-1 (>=20060604)
+  cygwin-1.5.21-1
   autoconf2.5-2.59-2
   automake1.9-1.9.6-1
-  binutils-20050610-1
-  cygport-0.2.1-1
+  binutils-20060709-1
+  cygport-0.2.5-1
   gawk-3.1.5-2
   gcc-core-3.4.4-1
   libtool1.5-1.5.22-1
-  make-3.80-1
+  make-3.81-1
   pkg-config-0.20-1
-  sed-4.1.4-1
+  sed-4.1.5-1
 
 Canonical download:
   ftp://ftp.gnome.org/pub/GNOME/sources/libwnck/
@@ -31,31 +31,31 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libwnck-2.14.2-X-src.tar.bz2
+  unpack libwnck-2.14.3-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libwnck-2.14.2-X.cygport all
+  cygport ./libwnck-2.14.3-X.cygport all
 
 This will create:
-  /usr/src/libwnck-2.14.2-X-src.tar.bz2
-  /usr/src/libwnck-2.14.2-X.tar.bz2
-  /usr/src/libwnck-devel-2.14.2-X.tar.bz2
-  /usr/src/libwnck-doc-2.14.2-X.tar.bz2
-  /usr/src/libwnck1_18-2.14.2-X.tar.bz2
+  /usr/src/libwnck-2.14.3-X-src.tar.bz2
+  /usr/src/libwnck-2.14.3-X.tar.bz2
+  /usr/src/libwnck-devel-2.14.3-X.tar.bz2
+  /usr/src/libwnck-doc-2.14.3-X.tar.bz2
+  /usr/src/libwnck1_18-2.14.3-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /usr/share/doc/Cygwin/libwnck-2.14.2.README
-  /usr/share/doc/libwnck-2.14.2/AUTHORS
-  /usr/share/doc/libwnck-2.14.2/COPYING
-  /usr/share/doc/libwnck-2.14.2/ChangeLog
-  /usr/share/doc/libwnck-2.14.2/HACKING
-  /usr/share/doc/libwnck-2.14.2/INSTALL
-  /usr/share/doc/libwnck-2.14.2/NEWS
-  /usr/share/doc/libwnck-2.14.2/README
+  /usr/share/doc/Cygwin/libwnck-2.14.3.README
+  /usr/share/doc/libwnck-2.14.3/AUTHORS
+  /usr/share/doc/libwnck-2.14.3/COPYING
+  /usr/share/doc/libwnck-2.14.3/ChangeLog
+  /usr/share/doc/libwnck-2.14.3/HACKING
+  /usr/share/doc/libwnck-2.14.3/INSTALL
+  /usr/share/doc/libwnck-2.14.3/NEWS
+  /usr/share/doc/libwnck-2.14.3/README
   /usr/share/locale/am/LC_MESSAGES/libwnck.mo
   /usr/share/locale/ar/LC_MESSAGES/libwnck.mo
   /usr/share/locale/az/LC_MESSAGES/libwnck.mo
@@ -188,6 +188,9 @@ Files included in the doc package:
 ------------------
 
 Port Notes:
+
+----- version 2.14.3-1 -----
+Version bump.
 
 ----- version 2.14.2-1 -----
 Version bump.
