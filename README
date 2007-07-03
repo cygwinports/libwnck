@@ -35,32 +35,32 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libwnck-2.18.2-X-src.tar.bz2
+  unpack libwnck-2.18.3-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libwnck-2.18.2-X.cygport all
+  cygport ./libwnck-2.18.3-X.cygport all
 
 This will create:
-  /usr/src/libwnck-2.18.2-X-src.tar.bz2
-  /usr/src/libwnck-2.18.2-X.tar.bz2
-  /usr/src/libwnck-devel-2.18.2-X.tar.bz2
-  /usr/src/libwnck-doc-2.18.2-X.tar.bz2
-  /usr/src/libwnck1_18-2.18.2-X.tar.bz2
+  /usr/src/libwnck-2.18.3-X-src.tar.bz2
+  /usr/src/libwnck-2.18.3-X.tar.bz2
+  /usr/src/libwnck-devel-2.18.3-X.tar.bz2
+  /usr/src/libwnck-doc-2.18.3-X.tar.bz2
+  /usr/src/libwnck1_18-2.18.3-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary packages:
 
 (libwnck)
-  /usr/share/doc/Cygwin/libwnck-2.18.2.README
-  /usr/share/doc/libwnck-2.18.2/AUTHORS
-  /usr/share/doc/libwnck-2.18.2/COPYING
-  /usr/share/doc/libwnck-2.18.2/ChangeLog
-  /usr/share/doc/libwnck-2.18.2/HACKING
-  /usr/share/doc/libwnck-2.18.2/INSTALL
-  /usr/share/doc/libwnck-2.18.2/NEWS
-  /usr/share/doc/libwnck-2.18.2/README
+  /usr/share/doc/Cygwin/libwnck-2.18.3.README
+  /usr/share/doc/libwnck-2.18.3/AUTHORS
+  /usr/share/doc/libwnck-2.18.3/COPYING
+  /usr/share/doc/libwnck-2.18.3/ChangeLog
+  /usr/share/doc/libwnck-2.18.3/HACKING
+  /usr/share/doc/libwnck-2.18.3/INSTALL
+  /usr/share/doc/libwnck-2.18.3/NEWS
+  /usr/share/doc/libwnck-2.18.3/README
   /usr/share/locale/am/LC_MESSAGES/libwnck.mo
   /usr/share/locale/ar/LC_MESSAGES/libwnck.mo
   /usr/share/locale/az/LC_MESSAGES/libwnck.mo
@@ -194,7 +194,7 @@ Files included in the binary packages:
 
 Port Notes:
 
------ version 2.18.2-1 -----
+----- version 2.18.3-1 -----
 Version bump for GNOME 2.18.
 
 ----- version 2.16.3-1 -----
