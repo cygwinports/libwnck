@@ -1,5 +1,5 @@
 category: Gnome
-requires: libwnck1_18
+requires: libwnck1_22
 sdesc: "GNOME Window Navigation Construction Kit (common files)"
 ldesc: "libwnck is Window Navigator Construction Kit, i.e. a library to 
 use for writing pagers and taskslists and stuff."
