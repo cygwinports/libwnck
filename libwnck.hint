@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin glib2 gtk2-x11 libX11_6 libintl8 libwnck1_22
+requires: cygwin libglib2.0_0 libgtk2.0_0 libintl8 libwnck1_22 libX11_6
 sdesc: "GNOME Window Navigation Construction Kit (wnckprop)"
 ldesc: "libwnck is Window Navigator Construction Kit, i.e. a library to 
 use for writing pagers and taskslists and stuff."

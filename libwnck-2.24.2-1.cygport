@@ -1,0 +1,8 @@
+inherit gnome2
+
+DESCRIPTION="GNOME Window Navigation Construction Kit"
+
+PKG_NAMES="${PN} ${PN}1_22 ${PN}1-devel"
+libwnck_CONTENTS='usr/bin/*.exe usr/share/doc/ usr/share/locale/'
+libwnck1_22_CONTENTS="usr/bin/*-1-22.dll"
+libwnck1_devel_CONTENTS='usr/include/ usr/lib/ usr/share/gtk-doc/'
