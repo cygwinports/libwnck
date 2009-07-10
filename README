@@ -4,31 +4,31 @@ libwnck is Window Navigator Construction Kit, i.e. a library to use
 for writing pagers and taskslists and stuff.
 
 Runtime requirements:
-  cygwin-1.7.0-45
+  cygwin-1.7.0-50
   libatk1.0_0-1.26.0-1
-  libcairo2-1.8.6-10
+  libcairo2-1.8.8-1
   libgcc1-4.3.2-2
-  libgdk_pixbuf2.0_0-2.16.1-1
-  libglib2.0_0-2.20.1-1
-  libgtk2.0_0-2.16.1-1
-  libintl8-0.17-10
-  libpango1.0_0-1.24.1-1
-  libstartup-notification1_0-0.9-10
-  libX11_6-1.2-10
+  libgdk_pixbuf2.0_0-2.16.3-1
+  libglib2.0_0-2.20.4-1
+  libgtk2.0_0-2.16.3-1
+  libintl8-0.17-11
+  libpango1.0_0-1.24.3-1
+  libstartup-notification1_0-0.10-1
+  libX11_6-1.2.1-1
   libXRes1-1.0.3-10
 
 Build requirements:
 (besides corresponding -devel packages)
   autoconf2.5-2.63-10
-  automake1.10-1.10.1-10
+  automake1.10-1.10.2-10
   binutils-20080624-2
-  cygport-0.9.6-1
+  cygport-0.9.7-1
   gawk-3.1.6-2
   gcc4-core-4.3.2-2
-  gnome-common-2.26.0-1
+  gnome-common-2.26.0-2
   gtk-doc-1.11-2
   intltool-0.40.6-1
-  libtool-2.2.7a-12
+  libtool-2.2.7a-13
   make-3.81-2
   pkg-config-0.23b-10
   sed-4.1.5-2
@@ -42,17 +42,17 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libwnck-2.26.1-X-src.tar.bz2
+  unpack libwnck-2.26.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libwnck-2.26.1-X.cygport all
+  cygport ./libwnck-2.26.2-X.cygport all
 
 This will create:
-  /usr/src/libwnck-2.26.1-X-src.tar.bz2
-  /usr/src/libwnck-2.26.1-X.tar.bz2
-  /usr/src/libwnck1-devel-2.26.1-X.tar.bz2
-  /usr/src/libwnck1_22-2.26.1-X.tar.bz2
+  /usr/src/libwnck-2.26.2-X-src.tar.bz2
+  /usr/src/libwnck-2.26.2-X.tar.bz2
+  /usr/src/libwnck1-devel-2.26.2-X.tar.bz2
+  /usr/src/libwnck1_22-2.26.2-X.tar.bz2
 
 -------------------------------------------
 
@@ -211,6 +211,9 @@ Files included in the binary packages:
 ------------------
 
 Port Notes:
+
+----- version 2.26.2-1 -----
+Version bump.
 
 ----- version 2.26.1-1 -----
 Version bump.
