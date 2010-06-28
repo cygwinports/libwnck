@@ -42,22 +42,25 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libwnck-2.30.0-X-src.tar.bz2
+  unpack libwnck-2.30.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libwnck-2.30.0-X.cygport all
+  cygport ./libwnck-2.30.2-X.cygport all
 
 This will create:
-  /usr/src/girepository-Wnck1.0-2.30.0-X.tar.bz2
-  /usr/src/libwnck-2.30.0-X-src.tar.bz2
-  /usr/src/libwnck-2.30.0-X.tar.bz2
-  /usr/src/libwnck1-devel-2.30.0-X.tar.bz2
-  /usr/src/libwnck1_22-2.30.0-X.tar.bz2
+  /usr/src/girepository-Wnck1.0-2.30.2-X.tar.bz2
+  /usr/src/libwnck-2.30.2-X-src.tar.bz2
+  /usr/src/libwnck-2.30.2-X.tar.bz2
+  /usr/src/libwnck1-devel-2.30.2-X.tar.bz2
+  /usr/src/libwnck1_22-2.30.2-X.tar.bz2
 
 -------------------------------------------
 
 Port Notes:
+
+----- version 2.30.2-1 -----
+Version bump.
 
 ----- version 2.30.0-1 -----
 Version bump for GNOME 2.30.
