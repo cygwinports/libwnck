@@ -1,0 +1,14 @@
+inherit gnome2
+
+NAME="libwnck"
+VERSION=2.30.7
+RELEASE=2
+CATEGORY="GNOME"
+SUMMARY="GNOME Window Navigation Construction Kit"
+DESCRIPTION="libwnck is Window Navigator Construction Kit, i.e. a library to
+use for writing pagers and taskslists and stuff."
+
+PKG_NAMES="${PN} ${PN}1_22 ${PN}1-devel girepository-Wnck1.0"
+libwnck1_22_CONTENTS="usr/bin/*-1-22.dll usr/share/doc/ usr/share/locale/"
+libwnck1_devel_CONTENTS='--exclude=gir* usr/include/ usr/lib/ usr/share/gtk-doc/'
+girepository_Wnck1_0_CONTENTS="usr/*/gir*/Wnck-1.0.*"

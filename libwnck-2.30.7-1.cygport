@@ -1,9 +1,0 @@
-inherit gnome2
-
-DESCRIPTION="GNOME Window Navigation Construction Kit"
-
-PKG_NAMES="${PN} ${PN}1_22 ${PN}1-devel girepository-Wnck1.0"
-libwnck_CONTENTS='usr/bin/*.exe usr/share/doc/ usr/share/locale/'
-libwnck1_22_CONTENTS="usr/bin/*-1-22.dll"
-libwnck1_devel_CONTENTS='--exclude=gir* usr/include/ usr/lib/ usr/share/gtk-doc/'
-girepository_Wnck1_0_CONTENTS="usr/*/gir*/Wnck-1.0.*"
